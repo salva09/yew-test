@@ -6,7 +6,7 @@ use crate::components::button_counter::ButtonCounter;
 pub fn counter() -> Html {
     html! {
         <div>
-        <h1>{"Click the button to start counting!"}</h1>
+            <h1>{"Click the button to start counting!"}</h1>
             <ButtonCounter />
         </div>
     }
